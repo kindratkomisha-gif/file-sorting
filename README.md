@@ -19,14 +19,14 @@ All used libraries (`os`, `shutil`) are built-in, so there is no need to install
 ⚠️ **IMPORTANT WARNING:** Before running the script, **make sure to create a backup copy (duplicate)** of all files and folders in the directory you plan to sort! The script physically moves files, so for the safety of your data, it is highly recommended to test it on a copy of your folder first.
 
 1. Open the script file (e.g., `organizer.py`).
-2. Specify the path to the folder you want to clean up in the `base_pass` variable. By default, it is set to:
+2. Specify the path to the folder you want to clean up in the `base_pass` variable:
    ```python
-   base_pass = "C:\\Users\\balan\\Desktop\\oppgave"
+   base_pass = "your path to the folder with unsorted files"
    ```
    *Note: If you are using Windows, do not forget to double the backslashes (`\\`) to avoid path reading errors.*
 3. Run the script via your terminal or Integrated Development Environment (IDE):
    ```bash
-   python organizer.py
+   python file_sort.py
    ```
 
 ## 📋 Key Variables Explained
